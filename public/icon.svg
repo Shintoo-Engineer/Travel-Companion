@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284c7"/>
+      <stop offset="0.5" stop-color="#0369a1"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="needle" x1="256" y1="120" x2="256" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f43f5e"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <!-- Globe latitude & longitude lines -->
+  <circle cx="256" cy="256" r="160" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="6"/>
+  <ellipse cx="256" cy="256" rx="80" ry="160" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="6"/>
+  <line x1="96" y1="256" x2="416" y2="256" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="6"/>
+  <ellipse cx="256" cy="256" rx="140" ry="80" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="4"/>
+  <!-- Compass / Pin core -->
+  <circle cx="256" cy="256" r="54" fill="#0f172a" stroke="#f8fafc" stroke-width="8"/>
+  <!-- Compass pointer north -->
+  <polygon points="256,110 274,236 256,218 238,236" fill="url(#needle)"/>
+  <!-- Compass pointer south -->
+  <polygon points="256,402 274,276 256,294 238,276" fill="#e2e8f0"/>
+  <!-- Central jewel -->
+  <circle cx="256" cy="256" r="16" fill="#38bdf8"/>
+</svg>

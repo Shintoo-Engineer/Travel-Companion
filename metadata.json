@@ -1,0 +1,9 @@
+{
+  "name": "Travel Companion",
+  "description": "Your AI travel companion everywhere — plan trips, translate voice and signs, decode food menus, navigate local transport, track expenses, and access verified emergency guidance worldwide.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
